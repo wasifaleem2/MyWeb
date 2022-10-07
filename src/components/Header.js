@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar  variant="dark" expand="lg" style={{backgroundColor:"navy"}}>
+      {/* bg="light" */}
       <Container>
         <Navbar.Brand>Wasif Aleem</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
