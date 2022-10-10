@@ -18,16 +18,25 @@
   justify-content: center;
   width: auto;
   height: 91.5vh;
-  background-image: url("./media/back2.jpg");
+  background-image: url("./media/back32.png");
   background-size: cover;
   color: white;
   opacity: 0.6;
+}
+.hover-image{
+  display: none;
 }
 @media only screen and (max-width: 500px) {
   .home {
     height: 93.2vh;
     background-image: url("./media/my-profile-mobile.jpeg");
     font-size: 200px;
+  }
+  .hover-image hover{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
   }
 }
 .home-content {
@@ -42,18 +51,20 @@
     color: gold;
   }
   60% {
-    color: green;
+    color: blue;
   }
   100% {
     transform: translateY(100%);
     color: rgb(223, 227, 231);
+    text-decoration: bold;
+    font-family: cursive;
   }
 }
 
 .home-content h1 {
   font-size: 90px;
   /* margin-top: 90%; */
-  font-family:monospace;
+  /* font-family:monospace; */
   /* background: linear-gradient(to right, seagreen, skyblue, white, #eedd44);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text; */
