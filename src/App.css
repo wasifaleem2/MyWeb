@@ -23,20 +23,12 @@
   color: white;
   opacity: 0.6;
 }
-.hover-image{
-  display: none;
-}
+
 @media only screen and (max-width: 500px) {
   .home {
     height: 93.2vh;
     background-image: url("./media/my-profile-mobile.jpeg");
     font-size: 200px;
-  }
-  .hover-image hover{
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-
   }
 }
 .home-content {
